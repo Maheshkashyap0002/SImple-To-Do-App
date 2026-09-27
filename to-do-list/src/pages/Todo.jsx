@@ -7,7 +7,7 @@ const Todos = () => {
   const [task, setTask] = useState("");
   const [todos, setTodos] = useState([]);
 
-  const API_URL = "http://localhost:3000/api/task";
+  const API_URL = "https://simple-to-do-app-cnlv.onrender.com/api/task" ;
 
 
 
