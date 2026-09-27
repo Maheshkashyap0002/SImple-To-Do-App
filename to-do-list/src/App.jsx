@@ -9,7 +9,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <BrowserRouter>
+  <div>
 
       <Navbar />
       <main>
@@ -19,7 +19,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
         </Routes>
       </main>
-    </BrowserRouter>
+  </div>
   );
 };
 
