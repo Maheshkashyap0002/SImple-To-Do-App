@@ -1,0 +1,73 @@
+.home-page {
+  min-height: calc(100vh - 65px);
+}
+
+.home-hero {
+  min-height: calc(100vh - 65px);
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  padding: 40px 20px;
+
+  background: #fff9f9;
+}
+
+.home-small-title {
+  color: #f15b5b;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+.home-hero h1 {
+  font-size: 60px;
+
+  color: #171717;
+
+  margin: 15px 0;
+}
+
+.home-hero h1 span {
+  color: #f15b5b;
+}
+
+.home-description {
+  max-width: 550px;
+
+  color: #666;
+
+  line-height: 1.7;
+
+  font-size: 17px;
+
+  margin-bottom: 30px;
+}
+
+.start-btn {
+  padding: 13px 25px;
+
+  background: #f15b5b;
+
+  color: white;
+
+  text-decoration: none;
+
+  border-radius: 7px;
+
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.start-btn:hover {
+  transform: translateY(-2px);
+}

@@ -1,0 +1,76 @@
+.about-page {
+  min-height: calc(100vh - 65px);
+  background: white;
+  padding: 100px 20px;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-tag {
+  color: #f15b5b;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.about-container h1 {
+  font-size: 50px;
+  color: #171717;
+  margin: 15px 0 25px;
+}
+
+.about-container h1 span {
+  color: #f15b5b;
+}
+
+.about-container > p:not(.about-tag) {
+  max-width: 650px;
+  margin: auto;
+  color: #666;
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+.about-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 60px;
+}
+
+.about-card {
+  padding: 30px;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  background: #fff9f9;
+}
+
+.about-card h3 {
+  color: #171717;
+  margin-bottom: 10px;
+}
+
+.about-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+
+@media (max-width: 700px) {
+  .about-container h1 {
+    font-size: 38px;
+  }
+  .about-cards {
+    grid-template-columns: 1fr;
+  }
+  .todo-form {
+    flex-direction: column;
+  }
+  .todo-form button {
+    padding: 13px;
+  }
+}
